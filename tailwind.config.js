@@ -9,6 +9,9 @@ export default {
         'custom': '6px',
       },
       colors: {
+      
+        lightBackground: '#F9FAFF',
+      
         logo: {
           background1: '#FFBB00',
           background2: '#000000',
@@ -19,7 +22,10 @@ export default {
         },
         secondaryButton: {
           lightGrey: '#263238',
+          footerGrey:'#222E34',
           darkGrey: '#65624C',
+          lightBlack: '#605F5F',
+          textColorFooter:'DDDDDD'
         },
       },
       fontFamily: {

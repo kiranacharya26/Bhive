@@ -6,8 +6,8 @@ const UserList: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-6">
-      <h2 className="text-h2 font-bold mb-4 hidden md:block">Our Space Overview</h2>
-      <h3 className="text-h3 font-bold mb-4 md:hidden">Our Space Overview</h3>
+      <h2 className="text-h2 font-bold mb-4 hidden md:block text-lightGrey">Our Space Overview</h2>
+      <h3 className="text-h3 font-bold mb-4 md:hidden text-lightGrey">Our Space Overview</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
         {users.map((user) => (
           <div
@@ -15,7 +15,7 @@ const UserList: React.FC = () => {
             className="bg-white shadow-md rounded-custom flex flex-col cursor-pointer"
           >
             <div className="flex items-center justify-between p-4 border-gray-200">
-              <h3 className="text-lg font-semibold">{user.name}</h3>
+              <h3 className="text-lg font-semibold text-lightGrey">{user.name}</h3>
             </div>
 
             <div className="w-full h-48 flex items-center justify-center p-2">
