@@ -20,11 +20,18 @@ const HeroSection: React.FC = () => {
     ></div>
       </div>
       {/* Image */}
-      <div className="w-full md:w-2/5 h-full">
+      <div className="w-full md:w-2/5 h-full relative">
+        {/* Background image for the coworking image */}
+        <div
+          className="absolute inset-0 hidden md:block"
+          style={{ backgroundImage: "url('/assets/images/Vector7.png')", backgroundSize: 'cover', backgroundPosition: 'center', zIndex: 0 }}
+        ></div>
+
+        {/* Coworking Image */}
         <img
           src="/assets/images/Coworkingvideo1.png"
-          alt="Hero Image"
-          className="w-full h-full object-cover"
+          alt="Coworking Video"
+          className="w-full h-full object-none"
         />
       </div>
     </section>
