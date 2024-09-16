@@ -21,7 +21,7 @@ const UserList: React.FC = () => {
             <div className="relative w-full h-48 flex items-center justify-center p-2">
               <div className="w-full h-full bg-gray-200 rounded-md overflow-hidden">
                 <img src={user.images[0]} alt={`Image of ${user.name}`} className="w-full h-full object-cover rounded-md" />
-                <div className="absolute top-3 left-3 bg-secondaryButton-lightGrey p-2 rounded-md shadow-lg flex items-center space-x-1 z-10">
+                <div className="absolute top-3 left-3 bg-secondaryButton-lightGrey p-2 rounded-md shadow-lg flex items-center space-x-1 z-10 border border-logo-background1">
                   <img src={user.typeImage[0]} alt="Icon" className="w-4 h-4 object-contain" />
                   <p className="text-xs font-medium text-logo-background1 tracking-widest">{user.type}</p>
                 </div>
