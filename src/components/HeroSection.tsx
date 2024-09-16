@@ -6,13 +6,14 @@ const HeroSection: React.FC = () => {
       {/* Text */}
       <div className="w-full md:w-3/5 flex items-center justify-center md:justify-start p-6 relative">
         <div className="text-center md:text-left relative z-10">
-          <h4 className="text-h4 md:hidden font-bold mb-4 text-secondaryButton-lightGrey ">
-            Host your meeting with world-class amenities. Starting at <span className="text-primaryButton-darkYellow">₹199/-!</span>
-          </h4>
-          <h1 className="md:pl-16 text-h1 hidden md:block font-bold mb-4 text-secondaryButton-lightGrey">
-            Host your meeting with world-class amenities. Starting at <span className="text-primaryButton-darkYellow">₹199/-!</span>
-          </h1>
-        </div>
+        <h4 className="text-h4 md:hidden font-bold mb-1 text-secondaryButton-lightGrey">
+          Host your meeting with world-class amenities. Starting at <span className="text-primaryButton-darkYellow">₹199/-!</span>
+        </h4>
+        <h1 className="md:pl-16 text-h1 hidden md:block font-bold mb-1 text-secondaryButton-lightGrey">
+          Host your meeting with world-class amenities. Starting at <span className="text-primaryButton-darkYellow">₹199/-!</span>
+        </h1>
+      </div>
+
         {/* Background image only on tablet and up */}
     <div
       className="absolute inset-0 hidden md:block"

@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AdvertiseSection from './components/AdvertiseSection';
 import Footer from './components/Footer';
+import MoreInfo from './components/MoreInfo';
 
 const App: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
       <div className="font-inter">
         <Navbar/>
         <HeroSection/>
+        <MoreInfo/>
         <UserList />
         <AdvertiseSection/>
         <Footer/>

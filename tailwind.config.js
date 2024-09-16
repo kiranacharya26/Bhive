@@ -8,10 +8,13 @@ export default {
       borderRadius: {
         'custom': '6px',
       },
+      fontSize: {
+        'sm': '14px',  
+        'base': '16px', 
+        'lg': '18px',  
+      },
       colors: {
-      
         lightBackground: '#F9FAFF',
-      
         logo: {
           background1: '#FFBB00',
           background2: '#000000',
@@ -38,6 +41,7 @@ export default {
         'h4': '20px',
         'h5': '18px',
         'h6': '16px',
+        'h7':'12px'
       },
       lineHeight: {
         'heading': '1.1',

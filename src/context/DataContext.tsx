@@ -6,6 +6,7 @@ interface User {
   address?: string;
   latitude?: number;
   longitude?: number;
+  type:string;
   google_maps_url?: string;
   city?: string;
   state?: string;
@@ -15,6 +16,7 @@ interface User {
   rules?: string | null;
   amenities?: string[];
   images: string[];
+  typeImage:string[];
   working_hours_start?: string;
   working_hours_end?: string;
   contact_person_name?: string;
