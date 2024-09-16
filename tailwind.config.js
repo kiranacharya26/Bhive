@@ -28,7 +28,7 @@ export default {
           footerGrey:'#222E34',
           darkGrey: '#65624C',
           lightBlack: '#605F5F',
-          textColorFooter:'DDDDDD'
+          textColorFooter:'#DDDDDD',
         },
       },
       fontFamily: {
@@ -41,7 +41,8 @@ export default {
         'h4': '20px',
         'h5': '18px',
         'h6': '16px',
-        'h7':'12px'
+        'h7':'12px',
+        'h8':'8px',
       },
       lineHeight: {
         'heading': '1.1',

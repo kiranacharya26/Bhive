@@ -46,7 +46,7 @@ const Section: React.FC = () => {
     <section className="container mx-auto px-4 py-6">
       {/* Heading */}
       <div className="mb-8 text-center">
-        <h2 className="text-3xl font-bold text-gray-800">Why Choose Us?</h2>
+        <h2 className="text-3xl font-bold text-gray-800 text-left">Why Choose Us?</h2>
       </div>
 
       {/* Blocks container with grid layout */}

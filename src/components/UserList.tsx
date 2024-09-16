@@ -8,7 +8,7 @@ const UserList: React.FC = () => {
     <div className="container mx-auto px-4 py-6">
       <h2 className="text-h2 font-bold mb-4 hidden md:block text-secondaryButton-lightGrey">Our Space Overview</h2>
       <h3 className="text-h3 font-bold mb-4 md:hidden text-secondaryButton-lightGrey">Our Space Overview</h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
         {users.map((user) => (
           <div key={user.id} className="bg-white shadow-md rounded-md flex flex-col cursor-pointer relative">
             <div className="flex items-center justify-between p-3 border-gray-200">
@@ -29,7 +29,7 @@ const UserList: React.FC = () => {
             </div>
             <div className="flex flex-row p-2 space-x-4">
               <div className="w-full md:w-1/2 bg-[#F9F9F9] p-2 rounded-md flex flex-row justify-between space-y-2">
-                <div className="flex flex-col justify-space-evenly">
+                <div className="flex flex-col justify-between">
                   <p className="text-gray-500 text-xs md:text-sm">Day Pass</p>
                   <p className="text-gray-600 text-sm md:text-h4 text-secondaryButton-lightGrey">₹ 249 <span className="text-gray-500 text-h7 md:text-sm">/ Day</span></p>
                 </div>
@@ -39,8 +39,13 @@ const UserList: React.FC = () => {
                   <img src="/assets/icons/Vector(Stroke)-2.png" alt="Icon" className="w-2.5 h-2.5 object-scale-down" />
                 </div>
               </div>
-              <div className="w-full md:w-1/2 bg-[#FFCF4B] p-2 rounded-md flex flex-row justify-between space-y-2">
-                <div className="flex flex-col justify-space-evenly">
+              <div className="relative w-full md:w-1/2 bg-[#FFCF4B] p-2 rounded-md flex flex-row justify-between space-y-2">
+                <div className="absolute top-0 left-0 right-0 -translate-y-1/2 flex justify-center">
+                  <span className=" text-white text-h8 md:text-h8 px-2 py-1 rounded-md bg-secondaryButton-lightGrey">
+                    20% Discount
+                  </span>
+                </div>
+                <div className="flex flex-col justify-between">
                   <p className="text-gray-500 text-xs md:text-sm">Bulk Pass</p>
                   <p className="text-gray-600 text-sm md:text-h4 text-secondaryButton-lightGrey">
                     ₹ 2400<span className="text-gray-500 text-h7 md:text-sm">/ 10 Days</span>
