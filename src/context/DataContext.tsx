@@ -46,7 +46,7 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [users, setUsers] = useState<User[]>([]);
 
   const fetchUsers = async () => {
-    const response = await fetch('/data.json'); // Replace with your actual API
+    const response = await fetch('/data.json');
     const data = await response.json();
     setUsers(data);
   };

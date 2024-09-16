@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./src/**/*.{js,ts,jsx,tsx}", // Adjust paths for your project
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -32,7 +32,7 @@ export default {
         },
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'], // Use Inter font
+        inter: ['Inter', 'sans-serif'], 
       },
       fontSize: {
         'h1': '58px',
